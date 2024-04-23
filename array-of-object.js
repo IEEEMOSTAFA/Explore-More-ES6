@@ -11,7 +11,7 @@ const price = products.map(price => price.price)
 // console.log(price);
 
 // forEach
-products.forEach(p => console.log(p.id))
+// products.forEach(p => console.log(p.id))
 
 // filter
 
@@ -19,7 +19,7 @@ const expensive = products.filter(p => p.price > 200);
 // console.log(expensive)
 // find
 const affordable = products.find(p => p.price < 400)
-console.log(affordable);
+// console.log(affordable);
 
 // accumulator
 const total = products.reduce((acum,current) => acum + current.price , 0);
